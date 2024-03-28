@@ -1,6 +1,6 @@
 
  var _servicescontainer=document.getElementById('servicescontainer');
- fetch('http://127.0.0.1:3000/services')
+ fetch('https://vlavaapin.onrender.com/services')
  .then(response => response.json())
  .then(json =>{
     //alert (json);
